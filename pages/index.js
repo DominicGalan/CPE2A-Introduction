@@ -9,14 +9,19 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>HI, I'm Dominic, I'm  a  computer engineering student.</p>
-        <p>My hobbies are singing, drawing, and dancing.
+        <p>HI, I'm Dominic, I'm  a  computer engineering student.
+          My hobbies are singing, drawing, and dancing.
           I take up the course of computer engineering because it has a high salary rate and I'm the only one who chooses the computer engineering in my family.
-          I see myself in 5 years being a CEO of the Nijisanji EN and part of the higher company in Japan and have a happy family.</p>
+          I see myself in 5 years being a CEO of the Nijisanji EN and part of the higher company in Japan and have a happy family
+        </p>
         <p>
           A strong grasp and command of the fundamentals of web development, including HTML, CSS, JavaScript, and pertinent frameworks (such as React, Angular, and Vue).{' '}
           The capacity to debug code efficiently and understand and solve complicated issues. {' '}
           Understanding of online security best practices and concepts, including input validation, safe authentication, and defense against common vulnerabilities (e.g., SQL Injection, Cross-Site Scripting).
+        </p>
+        <p>
+          (This is a sample website - you’ll be building a site like this on{' '}
+          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
     </Layout>
